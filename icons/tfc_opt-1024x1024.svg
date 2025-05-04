@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+    <defs>
+        <filter id="a" width="1.234" height="1.156" x="-.104" y="-.07" style="color-interpolation-filters:sRGB">
+            <feFlood flood-color="#1A1A1A" flood-opacity="1" result="flood"/>
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="9.905"/>
+            <feOffset dx="6.385" dy="6.492" in="blur" result="offset"/>
+            <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+            <feComposite in="SourceGraphic" in2="comp1" result="comp2"/>
+        </filter>
+        <filter id="c" width="1.199" height="2.445" x="-.175" y="-1.286" style="color-interpolation-filters:sRGB">
+            <feOffset dx="3" dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-color="#000" flood-opacity="1" result="flood"/>
+            <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite"/>
+            <feBlend in="blur" in2="composite"/>
+        </filter>
+        <filter id="e" width="1.292" height="1.31" x="-.165" y="-.11" style="color-interpolation-filters:sRGB">
+            <feGaussianBlur result="result6" stdDeviation="5"/>
+            <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+            <feComposite in="result8" in2="SourceAlpha" result="result9"/>
+            <feColorMatrix result="result10" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
+            <feBlend in="result10" in2="result6"/>
+        </filter>
+        <marker id="b" markerHeight="1" markerWidth="1" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" refX="0" refY="0" style="overflow:visible" viewBox="0 0 1 1">
+            <g transform="scale(.5)">
+                <circle cx="4" r="1" style="fill:context-stroke;stroke:context-stroke"/>
+                <circle cx="8" r="1" style="fill:context-stroke;stroke:context-stroke"/>
+                <circle cx="12" r="1" style="fill:context-stroke;stroke:context-stroke"/>
+            </g>
+        </marker>
+        <marker id="d" markerHeight="1" markerWidth="1" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" refX="0" refY="0" style="overflow:visible" viewBox="0 0 1 1">
+            <path d="M3-3 0 0l3 3" style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round" transform="rotate(180 .125 0)"/>
+        </marker>
+    </defs>
+    <rect width="1024" height="1024" ry="64" style="fill:#b3b3b3;stroke-width:16;stroke-linejoin:round"/>
+    <g style="display:inline">
+        <g style="display:inline;filter:url(#a)" transform="matrix(1.78849 0 0 1.78849 -153.852 -164.033)">
+            <path d="M128 128v384h256.443l-.37-320.676L320 128Z" style="fill:#e6e6e6;stroke:#000;stroke-width:6;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"/>
+            <path d="m319.242 128 .758 64h64z" style="fill:#ccc;stroke:#000;stroke-width:6;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"/>
+            <path d="M161.457 270.639v17.242h189.086v-17.242zm0 48.119V336h189.086v-17.242zm0 48V384h189.086v-17.242zm0 48V432h189.086v-17.242z" style="fill:#1a1a1a;stroke:#000;stroke-width:2.91385;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"/>
+        </g>
+        <path d="M874.942 446.948C687.91 381.81 283.742 412.933 224 288" style="display:inline;fill:none;stroke:#db43ff;stroke-width:32;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#b);filter:url(#c)"/>
+        <g style="display:inline;filter:url(#a)" transform="matrix(1.78849 0 0 1.78849 262.148 43.967)">
+            <path d="M128 128v384h256.443l-.37-320.676L320 128Z" style="fill:#e6e6e6;stroke:#000;stroke-width:6;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"/>
+            <path d="m319.242 128 .758 64h64z" style="fill:#ccc;stroke:#000;stroke-width:6;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"/>
+            <path d="M161.457 270.639v17.242h189.086v-17.242zm0 48.119V336h189.086v-17.242zm0 48V384h189.086v-17.242zm0 48V432h189.086v-17.242z" style="fill:#1a1a1a;stroke:#000;stroke-width:2.91385;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"/>
+        </g>
+        <path d="M774.645 706.789s331.284-253.64 180.41-254.239" style="display:inline;fill:none;stroke:#db43ff;stroke-width:32;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#d);filter:url(#e)"/>
+    </g>
+</svg>
