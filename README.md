@@ -70,6 +70,8 @@ make uninstall
 
 The script is primarly designed to be used directly from the command line.
 
+[![asciicast](https://asciinema.org/a/kU9hz5C7AdrZuayORW2OPTaGj.svg)](https://asciinema.org/a/kU9hz5C7AdrZuayORW2OPTaGj)
+
 ### Command-Line Usage
 
 Run the script with the following command:
