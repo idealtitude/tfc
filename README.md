@@ -54,7 +54,7 @@ Or do it manually:
 ```bash
 # Put it in your `~/.local.bin` folder, for example
 cp tfc.py ~/.local/bin/tfc
-# or make a symbolic link 
+# or make a symbolic link
 ln -s /path/to/tfc/tfc.py "$HOME/.local/bin/tfc"
 ```
 
